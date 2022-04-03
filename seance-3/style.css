@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: #1d2434;
+}
+.container{
+    background-color: #D5B981;
+    display: flex;  
+    height:100vh;
+    justify-content: space-between;
+
+    
+}
+h1{
+    font-size: 40px;
+}
+.left  {
+    
+    display: flex;
+    padding: 150px;
+    flex-direction: column;
+    width: 60%;
+    padding: 220px;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+
+}
+.left p {
+    width: 80%;
+}
+
+img{
+    width: 100%;
+    height: 85%;
+    outline:1px solid white;
+    outline-offset: -8px;
+}
+.im {
+    outline:0px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    border: 2px solid black;
+    width: 120px;
+    height: 50px;
+    background: transparent;
+}
+.about{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about-as-img{
+    width: 60%;
+    box-shadow: -60px -50px  #1d2434;
+    height: fit-content;
+    position: relative;
+    top: -10px;
+    right:-15px;
+}
+.blanc{
+     outline:1px solid white;
+    outline-offset: -8px;
+    height: 500px;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+.about-as-desc{
+    padding: 40px;
+}
+h5{ 
+    color: #b4b4b3;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.ser{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.hair , .bread  , .color {
+    text-align: center;
+    width: 20%;
+    background: #eeeeee;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    display: inline-flex;
+}
+
+
+.price-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.pr{
+    text-align: center;
+    padding: 3%;
+}
+
+        
+.hair1 {
+    width:22%;
+    display: flex;
+    align-items: center;
+    
+}
+.hair1 img{
+    width:25%;
+}
+.hair1 h6{
+    padding: 10px;
+}
+.hair1 ,h6 ,  p{
+    display: flex;
+}
+.pad{
+    padding:0px;
+}
+.back{
+    background-image: url(img/testimonial-bg.jpg);
+    background-color: rgb(6, 6, 148);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 120%;
+    display: flex;
+    flex-direction: column;
+    padding: 250px;
+    justify-content: space-between;
+}
+.back img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: 0px;
+}
+.back p{
+    color: white;
+}
+.back h3{
+    color: #D5B981;
+}
+.back h4 {
+    color: white ;
+}
+.back button{
+    color: #D5B981;
+    background: #1d2434;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;   
+    margin: 10px;
+}
+.btn{
+    display: flex;
+}
+
+.team{
+    text-align: center;
+}
+.master img {
+    width: 15%;
+}
+.expert{
+    padding: 40px;
+        
+}
+.master{
+    position: relative;
+}
+.adams , .dylan , .gloria , .josh{
+    background:#eeeeee;
+    width: 14%;
+    height: 36%;
+    position: absolute;
+    right: 569px;
+    bottom: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    z-index: 1;
+}
+.form{
+    display: flex;
+    background: #1d2434;
+}
+.form img{
+    width: 30%;
+    outline: 0px;
+}
+.pos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px;
+}
+.form input{
+    background: transparent;
+    border:  1px solid #D5B981;
+    padding: 10px;
+    margin: 10px;
+    width: 900px;
+    border: none;
+    border-bottom: 1px solid #D5B981 ;
+    outline: none;
+}
+.pos input[type="textarea"]{
+    height: 60px;
+}
+.form button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:  2px solid #D5B981 ;
+    color: #D5B981;
+    width: 150px;
+}
+.blog{
+    text-align: center;
+    padding: 3%;
+}
+.hair-cut{
+    padding: 20px;
+    width: 30%;
+    background: #eeeeee;
+    display:flex;
+    flex-direction: column;
+     display: inline-flex;
+}
+.lorem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hair-cut button{
+    border: none;
+    font-weight: bold;
+}
+.hair-cut img{
+    width: 100%;
+}
+.date{
+    display: flex;
+}
+.date input{
+    border: none;
+    text-decoration: none;
+    background: #eeeeee;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+}
+.btnn button{
+    color: #D5B981;
+    background: #1d2434;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;  
+    justify-content: space-around; 
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+.footer{
+    background: #1d2434;
+    height:300px;
+}
+.addres h3{
+    color: #D5B981;
+}
+.addres p{
+    color:rgb(158, 154, 154);
+}
+.links h3{
+    color: #D5B981;
+}
+.news h3{
+    color: #D5B981;
+}
+.links p{
+    color:rgb(158, 154, 154);
+    
+}
+.news p{
+    color:rgb(158, 154, 154);
+        width: 200px;
+}
+.posi{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+   margin: 10px;
+   justify-content: space-between;
+}
+.news button{
+    width: 100px;
+    position: relative;
+    right:110px;
+    height: 40px;
+
+}
+.news input{
+    width: 300px;
+    height: 50px;
+;
+}
